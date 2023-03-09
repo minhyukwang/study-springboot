@@ -8,9 +8,9 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 public class User {
-    private BigDecimal userId;
+    private BigDecimal user_id;
     private String username;
     private String password;
     private String session;
-    private String sessionExpireDate;
+    private String session_expire_date;
 }
